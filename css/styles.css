@@ -1,0 +1,375 @@
+:root {
+  --hero-text-color: #ffffff;
+  --title-text-color: #212121;
+  --par-color: #757575;
+  --active-color: #2196f3;
+  --bgc-color: #f5f4fa;
+  --bgc-sites: #afb1b8;
+}
+
+/* BODY */
+.page {
+  background-color: var(--hero-text-color);
+  color: var(--par-color);
+}
+/* Site nav */
+.site-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--active-color);
+}
+
+.site-nav .link.current {
+  color: var(--active-color);
+}
+/* LOGO */
+.logo {
+  font-family: "Raleway", sans-serif;
+  color: var(--title-text-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 85px;
+  align-items: center;
+  display: flex;
+}
+.logo-white {
+  color: var(--hero-text-color);
+}
+.logo-blue {
+  color: var(--active-color);
+}
+
+.logo-black {
+  color: var(--title-text-color);
+}
+
+.logo:focus,
+.logo:hover {
+  color: var(--title-text-color);
+}
+/* Global */
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+/* Contact with us */
+.contact {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.02em;
+  color: var(--par-color);
+
+  align-items: center;
+}
+.contact:hover,
+.contact:focus {
+  color: var(--active-color);
+}
+.section-title {
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+}
+/* Hero */
+/* Временно черный так как фон белый */
+.hero-title {
+  color: var(--hero-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+}
+
+/* Button */
+.button {
+  color: var(--title-text-color);
+  background-color: var(--hero-text-color);
+  font-family: Roboto;
+  font-style: normal;
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-align: center;
+
+  cursor: pointer;
+  min-width: 200px;
+  min-height: 50px;
+  border: 1px transparent;
+  border-radius: 4px;
+}
+
+.button.primary {
+  background-color: var(--active-color);
+  color: var(--hero-text-color);
+  border: 0px;
+}
+.button.secondary {
+  color: var(--title-text-color);
+  background-color: var(--bgc-color);
+  border: 0px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+.button.primary:hover,
+.button.primary:focus {
+  color: #dae4b7;
+}
+.button.secondary:hover,
+.button.secondary:focus {
+  color: var(--hero-text-color);
+  background-color: var(--active-color);
+}
+/* Our advantages */
+.text-p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+}
+.text-p.white {
+  color: var(--hero-text-color);
+}
+.section-title.heading {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Пока что черный так как фон белый и не видно белый текст */
+.section-title.color {
+  color: var(--title-text-color);
+}
+.name-people {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+}
+.text-par {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.sites {
+  color: var(--bgc-sites);
+  background-color: var(--hero-text-color);
+}
+.sites:hover,
+.sites:focus {
+  color: var(--hero-text-color);
+  background-color: var(--active-color);
+}
+.emblem:hover,
+.emblem:focus {
+  color: var(--bgc-sites);
+  background-color: var(--active-color);
+}
+.footer {
+  background: #2f303a;
+}
+.link-footer {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.link-footer:hover,
+.link-footer:focus {
+  color: var(--active-color);
+}
+.section-title.white {
+  color: var(--hero-text-color);
+}
+.section.comand {
+  background: #f5f4fa;
+}
+.sites.footer {
+  background: rgba(255, 255, 255, 0.1);
+}
+.sites.footer:hover,
+.sites.footer:focus {
+  color: var(--hero-text-color);
+  background-color: var(--active-color);
+}
+.developed {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+}
+.port {
+  display: none;
+}
+.potr-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 36px;
+  color: var(--title-text-color);
+}
+.par-port {
+  color: var(--par-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+}
+.text-inside {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  /* Временно черный так как фон белый */
+  color: var(--title-text-color);
+}
+
+/* geometry */
+.container {
+  width: 1170px;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 93px;
+  padding-right: 15px;
+  padding-bottom: 94px;
+  padding-left: 15px;
+}
+/* Header */
+.site-main {
+  display: flex;
+}
+.link-main {
+  margin-right: 50px;
+}
+.link-main:last-child {
+  margin-right: 0;
+}
+.header-items {
+  height: 80px;
+}
+header {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  border: 1px solid #ececec;
+}
+/* Banner */
+.hero {
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: slategray;
+}
+header .container {
+  display: flex;
+  align-items: center;
+}
+header .container,
+footer .container {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+.link-main .link {
+  display: block;
+  line-height: 80px;
+}
+.container.header-items {
+  align-items: center;
+}
+.contack-main {
+  display: flex;
+}
+.banner-main {
+  display: flex;
+}
+.site-main {
+  margin-left: 85px;
+}
+.contack-main {
+  display: flex;
+  margin-left: auto;
+}
+footer .container {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-top: 45px;
+  padding-bottom: 28px;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
+}
+.nav-list {
+  display: flex;
+}
+.nav-item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav-item a {
+  display: block;
+  color: var(--title-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
