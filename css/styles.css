@@ -100,8 +100,10 @@ ul {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 135%;
+  letter-spacing: 0.06em;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 /* Button */
