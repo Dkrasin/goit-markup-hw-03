@@ -318,7 +318,7 @@ footer .container {
   padding-top: 0px;
   padding-bottom: 0px;
 }
-.link-main .link {
+.link-main.nav-item .link {
   display: block;
   line-height: 80px;
 }
@@ -334,9 +334,16 @@ footer .container {
 .site-main {
   margin-left: 85px;
 }
-.contack-main {
+
+.contacts-main {
   display: flex;
   margin-left: auto;
+}
+.contacts-item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts-item {
+  align-items: center;
 }
 footer .container {
   display: flex;
@@ -351,6 +358,7 @@ ul {
   padding-left: 0px;
   margin: 0px;
 }
+
 .nav-list {
   display: flex;
 }
