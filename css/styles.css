@@ -334,15 +334,28 @@ footer .container {
 .site-main {
   margin-left: 85px;
 }
-
-.contacts-main {
+/* Contacts */
+.contacts-list {
   display: flex;
   margin-left: auto;
+}
+ul {
+  list-style: none;
+  padding-left: 0px;
+  margin: 0px;
 }
 .contacts-item:not(:last-child) {
   margin-right: 50px;
 }
 .contacts-item {
+  align-items: center;
+}
+.contacts-item a {
+  align-items: center;
+  color: var(--par-color);
+}
+.svg {
+  display: flex;
   align-items: center;
 }
 footer .container {
@@ -352,11 +365,6 @@ footer .container {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
   padding-top: 45px;
   padding-bottom: 28px;
-}
-ul {
-  list-style: none;
-  padding-left: 0px;
-  margin: 0px;
 }
 
 .nav-list {
