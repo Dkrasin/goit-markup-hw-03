@@ -184,35 +184,13 @@ ul {
 .text-p.white {
   color: var(--hero-text-color);
 }
-.section-title.heading {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+
 /* Пока что черный так как фон белый и не видно белый текст */
-.section-title.color {
-  color: var(--title-text-color);
-}
-.name-people {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--title-text-color);
-}
-.text-par {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 19px;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
+/* .section-title.color {
+  /* color: var(--title-text-color); */
+} 
+
+
 .sites {
   color: var(--bgc-sites);
   background-color: var(--hero-text-color);
@@ -245,9 +223,7 @@ ul {
 .section-title.white {
   color: var(--hero-text-color);
 }
-.section.comand {
-  background: #f5f4fa;
-}
+
 .sites.footer {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -476,11 +452,116 @@ body {
  .text-p {
   min-width: 270px;
 }
-.section-title .heading {
+/* .section-title.heading {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+} */
+.section-title.heading {
   color: var(--title-text-color);
     font-size: 36px;
     line-height: 1.16;
     font-weight: 700;
     text-align: center;
     margin-bottom: 50px;
+
+}
+.do-list {
+display: flex;
+    justify-content: space-between;
+}
+}
+.section-do ul {
+    list-style-type: none;
+}
+
+.do-item {
+  display: block;
+    position: relative;
+}
+.do-link {
+
+}
+.section-do  a {
+    text-decoration: none;
+}
+.section-do .section-title {
+  text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    color: #ffffff;
+    background-color: rgba(47, 48, 58, 0.8);
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 0 auto;
+}
+/* TEAM */
+/* .text-par {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+} */
+/* .name-people {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text-color);
+} */
+.comand ul {
+  list-style: none;
+}
+.comand {
+   font-size: 16px;
+  text-align: center;
+  line-height: 1.19;
+  background: var(--bgc-color);
+}
+.comand-list {
+  display: flex;
+  justify-content: space-between;
+}
+.comand-item {
+   border-radius: 4px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+.comand-info {
+  text-align: center;
+  padding: 30px 32px 24px;
+  background:var(--hero-text-color);
+}
+.comand .name-people {
+    font-size: 16px;
+  font-weight: 500;
+  text-transform: none;
+  margin-bottom: 10px;
+}
+.comand .text-par {
+   font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+}
+.social {
+    display: flex;
+    justify-content: space-between;
+}
+.social-item a:hover,
+.social-item a:focus {
+  background-color: var(--active-color);
+}
+.social-item a {
+  display: block;
+  padding: 12px;
+  border-radius: 50%;
 }
