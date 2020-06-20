@@ -200,11 +200,7 @@ ul {
   color: var(--hero-text-color);
   background-color: var(--active-color);
 }
-.emblem:hover,
-.emblem:focus {
-  color: var(--bgc-sites);
-  background-color: var(--active-color);
-}
+
 .footer {
   background: #2f303a;
 }
@@ -564,4 +560,31 @@ display: flex;
   display: block;
   padding: 12px;
   border-radius: 50%;
+}
+/* Clients */
+.clients ul {
+  list-style-type: none;
+}
+.clients-list {
+  display: flex;
+  justify-content: space-between;
+}
+.clients-item {
+  display: block;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  height: 90px;
+  width: 170px;
+}
+
+.clients-item a:hover,
+.clients-item a:focus {
+  border-color: var(--active-color);
 }
