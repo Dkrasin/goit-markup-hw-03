@@ -34,7 +34,7 @@
   color: var(--active-color);
 }
 /* LOGO */
-.logo {
+/* .logo {
   font-family: "Raleway", sans-serif;
   color: var(--title-text-color);
   font-size: 26px;
@@ -43,13 +43,23 @@
   letter-spacing: 0.03em;
   margin-right: 85px;
   align-items: center;
-  display: flex;
+  display: flex; */
+  .logo {
+  font-family: 'Raleway', sans-serif;
+  color: var(--additional-text-color);
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  margin-right: 85px;
+}
 }
 .logo-white {
   color: var(--hero-text-color);
 }
 .logo-blue {
   color: var(--active-color);
+  
 }
 
 .logo-black {
@@ -69,6 +79,7 @@ ul {
 }
 /* Contact with us */
 .contact {
+  margin-left: 10px;
   font-family: Roboto;
   font-style: normal;
   font-weight: 500;
@@ -129,7 +140,21 @@ ul {
 .button.primary {
   background-color: var(--active-color);
   color: var(--hero-text-color);
-  border: 0px;
+ 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  font-size: 16px;
+    font-weight: 500;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+   
+    cursor: pointer;
+    min-width: 200px;
+    min-height: 50px;
+    border: 1px transparent;
+    border-radius: 4px;
+    
+}
+}
 }
 .button.secondary {
   color: var(--title-text-color);
@@ -273,8 +298,7 @@ ul {
 
 /* geometry */
 .container {
-  width: 1170px;
-
+  width: 1200px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
@@ -350,6 +374,7 @@ ul {
   margin-right: 50px;
 }
 .contacts-item {
+  display: flex;
   align-items: center;
 }
 .contacts-item a {
@@ -390,4 +415,72 @@ h6,
 p {
   margin-top: 0px;
   margin-bottom: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--par-color);
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+/* Our advantages */
+.section .advantages {
+    opacity: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.advantages {
+    color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.advantages-list {
+    display: flex;
+}
+.section ul {
+    list-style-type: none;
+}
+.advantages-item:not(:last-child) {
+    margin-right: 30px;
+}
+.section .advantages-img {
+    background: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+.section .advantages-img img {
+  display: block;
+  margin: 0 auto;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.section .text-p {
+  text-align: left;
+}
+.text-p {
+  font-size: 14px;
+    line-height: 1.71;
+}
+.section .container {
+  padding-top: 54px;
+}
+
+.section .section-title {
+  line-height: 1.14;
+  margin-bottom: 10px;
+}
+
+ .text-p {
+  min-width: 270px;
+}
+.section-title .heading {
+  color: var(--title-text-color);
+    font-size: 36px;
+    line-height: 1.16;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
 }
